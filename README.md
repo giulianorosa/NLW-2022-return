@@ -2,6 +2,12 @@
 
 ## DIA 1
 
+## Método para aprendizado da Rocketseat
+
+- Foco
+- Prática
+- Grupo
+
 ## Fundamentos Web
 
 # O que é Programar ?
@@ -136,7 +142,7 @@
   - Por padrão temos Display: inline para button, img
     - Display: inline deixa apenas no tamanho da tag, deixando o restante dos itens com Display inline também do lado, até completar o tamanho da imagem.
 
-- Utilizamos no CSS o * {} para resetar nossa página, para tirar os padrões dos navegadores e adicionar nossa configuração para ser igual a todos.
+- Utilizamos no CSS o \* {} para resetar nossa página, para tirar os padrões dos navegadores e adicionar nossa configuração para ser igual a todos.
   - Geralmente zeramos o margin e padding dos projetos.
     - margin: 0
     - padding: 0
@@ -172,3 +178,117 @@
     - NÃO FAZ PARTE DO DIA A DIA DO PROGRAMADOR(A) A UTILIZAÇÃO DESSA FERRAMENTA PARA CRIAÇÃO, APENAS PARA VISUALIZAÇÃO DO ESTILO QUE O PO/PM GOSTARIA DE POSSUIR SEU PROJETO
         - PO - Product Owner
         - PM - Product Manager
+
+## DIA 2
+
+# Pra que ser as Class ?
+
+    - Serve para classificar nossas tags
+    - Um modo de diferenciar esse tag das demais tags do código
+    - Usamos o ponto (.) no arquivo CSS para referenciar as estilizações para aquela tag (Seletor de Classe)
+
+# Como criar Tag HTML via CSS ?
+
+    - Criamos a partir de um comando chamado BEFORE.
+        - Ou seja, tudo que estiver ANTES da tag que referenciamos, receberá as configurações impostas nesse css
+
+# Como selecionar uma tag filha específica para alteração ?
+
+    - Através do comando nth-child(), podemos selecionar qual tag queremos
+        - Exemplo
+            - Em nosso código, no NAV temos 2 SVG
+            - Quando queremos selecionar o primeiro NAV do comando, usamos o:
+                - nav.scroll svg:nth-cild(1), assim selecionamos apenas o primeiro filho svg do nav
+            - Para selecionar o segundo seria com a mesma sintaxe
+                - nav.scroll svg:nth-child(2), e assim por diante
+
+## INICIANDO COM JAVASCRIPT
+
+# Como funciona o Javascript
+
+    - Ele funciona da Esqueda para Direita
+    - Linha a Linha
+    - Ele é Síncrono
+
+# Quais os tipos primitivos que temos em Javascript ?
+
+    - String - Palavras
+        - Varchar - Podemos encontrar em algumas aplicações com o nome de VARCHAR, onde utilizamos para Banco de Dados
+    - Number - Números
+    - Boolean - Retorna apenas Verdadeiro ou Falso
+
+# Quais as boas práticas em Javascript (linguagens de programação em geral) ?
+
+    - Uso em Inglês
+    - Usamos o Camel Case
+        - Devemos utilizar dessa forma para seguir as boas práticas da programação:
+            - Tudo junto
+            - Primeira letra minúscula
+            - Início de outra palavra maiúscula
+    - Nomes intuitivos, curtos e descritivos
+
+# O que são Funções em Javascript ?
+
+    - Criar sequências de passos para aplicação
+    - Executa a sequência
+
+# O que são os Objetos em Javascript ?
+
+    - Seria uma construção de propriedades e Funcionalidades
+        - Neles temos os Atributos e Métodos
+            - Exemplo
+                - Possuimos uma bicicleta, onde pesa 50kg e é da cor Amarela, uso ela para pedalar
+                    - Objeto: Bicicleta
+                    - Atributo: Peso e Cor
+                    - Método: Pedalar
+        - Criamos com {props:"Valor"}
+
+# Fluxos alternativos em aplicações
+
+    - Uso do IF em nossa aplicação
+        - São condições
+            - Se estiver certo, faça isso
+            - Se não, não faça
+                - Exemplo
+                    - if(chover) {
+                        console.log('Vou ficar em casa')
+                    } else {
+                        console.log('Vou jogar bola')
+                    }
+                - Se Chover, fico em casa. Se não, vou jogar bola.
+
+# Como inserimos o Javascript em nosso sistema ?
+
+    - Utilizamos a tag script dentro do nosso código
+        - Podemos inserir tanto no Head quanto no Body
+
+# Como criamos uma função ?
+
+    - Para criar uma função em Javascrip, utilizamos a palavra FUNCTION no início do código, e damos um nome para essa função
+        - Exemplo
+            - function nomeDaFunção() {}
+
+## BÔNUS
+
+- Usamos margin-inline para referenciar margem do eixo X (horizontal)
+
+  - Ao invés de utilizar margin-left e margin-right, o margin-inline já referencia a esses dois atributos
+
+- Usamos o margin-block para referenciar margem do eixo Y (vertical)
+
+  - Ao invés de utilizar margin-top e margin-bottim, o margin-block já referencia a esses dois atributos
+
+- O display flex se referencia apenas por 1 eixo, X (horizontal) ou Y (vertical)
+
+  - Display flex por padrão temos o alinhamento em linha(horizontal), onde está relacionado com o eixo X.
+  - Podemos alterar utilizando a configuração flex-direction, colocando em column(vertical), onde passará a ser relacionado com o eixo Y.
+
+- Temos também o eixo Z, o eixo Z é o eixo tridimensional, o eixo que trás a imagem para fora.
+
+# O que é DOM ?
+
+    - Document Object Model
+        - Modelagem do nosso documento para o Javascript
+            - Toda essa modelagem tem a modelagem PAI que seria o WINDOW
+
+
