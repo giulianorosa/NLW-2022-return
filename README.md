@@ -291,4 +291,24 @@
         - Modelagem do nosso documento para o Javascript
             - Toda essa modelagem tem a modelagem PAI que seria o WINDOW
 
+## DIA 3
 
+
+# O que é Scrollreveal ?
+
+    - É uma biblioteca onde conforme vamos dando Scroll em nossa página, conforme vamos andando na página, ele vai abrindo todo o conteúdo com um efeito.
+
+# O que é uma biblioteca ?
+    - É um conjunto de funções já criadas por terceiros que usamos em nossas aplicações para facilitar nosso desenvolvimento do dia a dia
+
+# BONUS
+
+- Aprendemos a utilização de padronização em CSS
+
+- Utilizamos as tags SECTION, utilizada para dar apresentar os pedaços da página
+
+- Adicionamos âncoras
+
+- Eventos de click no menu
+
+- Criação de Rolagem Suave utilizando o Smooth
