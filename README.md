@@ -293,12 +293,12 @@
 
 ## DIA 3
 
-
 # O que é Scrollreveal ?
 
     - É uma biblioteca onde conforme vamos dando Scroll em nossa página, conforme vamos andando na página, ele vai abrindo todo o conteúdo com um efeito.
 
 # O que é uma biblioteca ?
+
     - É um conjunto de funções já criadas por terceiros que usamos em nossas aplicações para facilitar nosso desenvolvimento do dia a dia
 
 # BONUS
@@ -312,3 +312,21 @@
 - Eventos de click no menu
 
 - Criação de Rolagem Suave utilizando o Smooth
+
+## Dia 4
+
+- Ajustamos o carregamento da função onScroll() dentro do main.js
+  - Utilizamos o window.addEventListener('event', função)
+    - Evitamos o erro do console, onde estava procurando a função antes de terminar o carregamento da página
+- Realizamos o Rodapé com FOOTER
+- Padronizamos o buttom
+  - adicionamos o hover
+- Ajustamos as imagens
+- Adicionamos o backToTopBack, para voltar ao início do Site
+- Adicionamos a mudança de cores rápidas para o site todo
+- Realizamos mudança de cores também nas imagens do site
+  - Utilizamos o formato svg
+    - fill
+    - stroke
+  - # FORMATOS DE IMAGENS .PNG E .JPG NÃO POSSUEM ESSES ATRIBUTOS PARA REALIZAR ESSAS MUDANÇAS
+- Adicionamos o link para contato via whatsapp: www.wa.me/DDIDDDTELEFONE
