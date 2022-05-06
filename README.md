@@ -330,3 +330,37 @@
     - stroke
   - # FORMATOS DE IMAGENS .PNG E .JPG NÃO POSSUEM ESSES ATRIBUTOS PARA REALIZAR ESSAS MUDANÇAS
 - Adicionamos o link para contato via whatsapp: www.wa.me/DDIDDDTELEFONE
+
+## Dia 5
+
+- Ajuste de tela
+    - de 320 a 500
+    - de 1024 acima
+
+- CSS Media queries
+    - @media
+        - Inserir pontos de quebra(breakpoints)
+
+- Restruturar HTML para ter colunas.
+    - Usando display: grid
+
+- CSS Flex(avançado)
+
+- Lógica avançada
+    - .querySelector()
+    - .getAttribute('class')
+    - operadores lógicos
+        - &&
+        - ||
+    - operadores de comparação
+        - <=
+        - =>
+        - >
+        - <
+        - ===
+        - ==
+    - operador de negação
+        - !
+- Argumento da função
+- Colocar o objeto no Github, com link acessível
+    - Corrigir ou modificar código direto no GitHub usando o . (ponto final)
